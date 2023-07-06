@@ -29,3 +29,8 @@ les fonctionnalités peuvent être : rouler, freiner, klaxonner...
 L'instance de classe est un objet de la classe.<br>
 Dans l'exemple, nous pouvons avoir un objet de la classe Voiture, qui est de couleur rouge, avec 5 portes, moteur diesel.<br>
 On peut avoir autant d'objet de la classe Voiture mais une seule classe Voiture pouvant être utilisée autant de fois qu'on veut créer un objet.<br>
+
+### Quel est l'intérêt de déclarer la connexion PDO dans une classe et pas dans un fichier "généralé" type index.php ?
+
+C'est l'idée de décomposer le code pour simplifier la maintenance.<br>
+On pourra également appeler autant de fois la classe `PhpPdo` dont on a besoin. 
