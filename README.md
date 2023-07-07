@@ -34,3 +34,11 @@ On peut avoir autant d'objet de la classe Voiture mais une seule classe Voiture 
 
 C'est l'idée de décomposer le code pour simplifier la maintenance.<br>
 On pourra également appeler autant de fois la classe `PhpPdo` dont on a besoin. 
+
+## Structure de projet :
+
+Dans notre dossier du projet, nous aurons 3 dossiers :
+1. config : ce dossier contiendra la logique de connexion à la BDD.
+2. models : ce dossier contiendra le(s) fichier(s) qui effectuer des actions sur la base de données = CRUD.<br>
+CRUD = Create, Read, Update, Delete : méthodes des différentes actions qu'on peut faire sur une BDD SQL.
+3. 
