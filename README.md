@@ -41,4 +41,8 @@ Dans notre dossier du projet, nous aurons 3 dossiers :
 1. config : ce dossier contiendra la logique de connexion à la BDD.
 2. models : ce dossier contiendra le(s) fichier(s) qui effectuer des actions sur la base de données = CRUD.<br>
 CRUD = Create, Read, Update, Delete : méthodes des différentes actions qu'on peut faire sur une BDD SQL.
-3. 
+3. routes : ce dossier contient les routes avec les méthodes : GET, POST...
+
+
+
+<a href="https://github.com/Doha3ris/TP-API-POO/tree/main">correction</a>
